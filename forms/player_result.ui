@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Player_Result</class>
+ <widget class="QGroupBox" name="Player_Result">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>110</width>
+    <height>54</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GroupBox</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-image: url();
+}
+QGroupBox {
+	background-image: url();
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top-left-radius: 0.75em;
+	border-top-right-radius: 0.75em;
+	padding-top: 1.5em;
+	font-style: italic;
+}
+QGroupBox::title { 
+	subcontrol-origin: padding; 
+	subcontrol-position: top center;
+	margin-top: 0.25em;
+	font-style: italic;
+}
+</string>
+  </property>
+  <property name="title">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="player_name">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLCDNumber" name="player_points">
+     <property name="numDigits">
+      <number>3</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

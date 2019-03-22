@@ -1,0 +1,23 @@
+
+--- FRENCH ---
+
+Vous devez disposer de la bibliothèque Qt version 4.4.2 ou supérieure :
+http://www.qtsoftware.com/
+Puis exécutez simplement sur la ligne de commande :
+$ qmake
+$ make release (ou mingw32-make si vous utilisez MinGW, ou nmake si vous utilisez
+Visual C++).
+
+C'est tout.
+
+--- ENGLISH ---
+
+You need the Qt library release 4.4.2 or higher:
+http://www.qtsoftware.com/
+Then simply run on the command line:
+$ qmake
+$ make release (or mingw32-make if you're using MinGW, or nmake is you're
+using Visual C++).
+
+That's all.
+

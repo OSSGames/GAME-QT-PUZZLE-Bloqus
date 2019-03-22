@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/images" >
+        <file alias="france" >images/france.png</file>
+        <file alias="us_uk" >images/us_uk.png</file>
+        <file alias="bloqus_icon_32" >images/bloqus_icon_32.png</file>
+        <file alias="bloqus_icon_48" >images/bloqus_icon_48.png</file>
+        <file alias="bloqus_icon_64" >images/bloqus_icon_64.png</file>
+        <file alias="marble_black_64" >images/marble_black_64.png</file>
+        <file alias="marble_white_64" >images/marble_white_64.png</file>
+        <file alias="marble_black_128" >images/marble_black_128.png</file>
+        <file alias="grey_bg" >images/grey_bg.png</file>
+        <file alias="yellow_bg" >images/yellow_bg.png</file>
+    </qresource>
+    <qresource prefix="/i18n" >
+        <file alias="bloqus_en" >i18n/bloqus_en.qm</file>
+        <file alias="bloqus_fr" >i18n/bloqus_fr.qm</file>
+    </qresource>
+    <qresource prefix="/fonts" >
+        <file alias="FreeSerif" >fonts/FreeSerif.ttf</file>
+    </qresource>
+</RCC>
